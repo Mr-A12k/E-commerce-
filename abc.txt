@@ -1,0 +1,63 @@
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    text-decoration: none;
+    background: transparent;
+}
+
+#navbar li{
+    padding: 0 10px;
+    background: transparent;
+    list-style: none;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    background: none;
+    color: rgb(20, 17, 17);
+    font-size: 16px;
+    font-weight: 600;
+    list-style: none;
+    transition: 0.3s ease;
+}
+
+#navbar li a i{
+    background: none;
+    
+}
+
+#navbar li  :hover,
+#navbar li  .active{
+    color: #2fb1a8;
+}
+
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#navbar li a i:hover{
+    color: #17cabe;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    font-family: 'Great Vibes';
+    text-decoration: none;
+    background: transparent;
+    padding-left: 20px;
+    font-size: 40px;
+}
